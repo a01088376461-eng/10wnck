@@ -1,0 +1,82 @@
+/* 전체 페이지 기본 스타일 */
+body {
+  font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* 제목 스타일 */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+/* 입력 필드 감싸는 박스 스타일 */
+div {
+  margin-bottom: 16px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 레이블 스타일 */
+label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+/* 입력창 스타일 */
+input {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #3b82f6;
+}
+
+/* 계산하기 버튼 스타일 */
+button {
+  width: 260px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+/* 결과 출력 스타일 */
+h2 {
+  font-size: 1.2rem;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  color: #1f2937;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 0;
+  color: #4b5563;
+}
